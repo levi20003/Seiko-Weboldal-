@@ -1,0 +1,399 @@
+body {
+    background-image: url('telephely.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #E4E0E1;
+    font-family: Arial;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+
+    background-color: #1a2b34;
+    padding: 20px;
+    text-align: center;
+	padding-bottom: 10px;
+}
+header h1 {
+    font-size: 40px;
+    color: #E4E0E1;
+    font-weight: bold;
+}
+header img{
+	width: 20%;
+	length: auto;
+}
+nav {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav a {
+	font-size: 25px;
+    color: #E4E0E1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+	display: inline-block;
+}
+nav a:hover {
+    color: #D4AF37;
+}
+.lap {
+    width: 100%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    text-align: center;
+	position: relative;
+}
+main h1, main h2, main h3, main p {
+    color: #E4E0E1;
+    margin: 15px 0;
+}
+main h1 {
+	text-align: center;
+}
+main h2 {
+    
+	text-align: center;
+
+}
+main h4{
+	text-align: center;
+}
+main img {
+    width: 28%;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
+footer {
+    background-color: #1a2b34;
+    color: #E4E0E1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	height: 40px;
+	padding: 5px;
+}
+ img {
+	width: 50%;
+	length: auto;
+}
+* {
+	box-sizing: border-box;
+}
+div {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    text-align: left;
+	position: center;
+}
+.kingseikokep {
+	background-image:url("kingseiko.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 100px;
+	height: 150px;
+	background-size: cover;
+	float: right;
+	margin-top: -40px;
+	image-rendering: pixelated;
+	
+}
+.kapcsolat {
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.kapcsolat a {
+	color: white; /* Link szöveg színe */
+    background-color: black; /* Gomb háttérszíne */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white; /* Keret hozzáadása */;
+
+}
+.butikkep {
+	background-image:url("butik.jpg");
+	margin: 0px;
+	padding: 0px;
+	width: 372px;
+	height: 238px;
+	background-size: cover;
+	float: right;
+	image-rendering: pixelated;
+	margin-top: -27px;
+	margin-left: -500px;
+	margin-right: -50px;
+}
+.butikkep2{
+	background-image:url("butikkep2.jpg");
+	margin: 0px;
+	padding: 0px;
+	width: 372px;
+	height: 238px;
+	background-size: cover;
+	float: left;
+	image-rendering: pixelated;
+	margin-top: -156px;
+	margin-left: -50px;
+}
+.magazinok {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+
+}
+.magazin {
+    text-align: center;
+    width: 50%;
+	height: auto
+}
+.magazin img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.magazin a {
+    display: block;
+    margin-top: 10px;
+    color: #E4E0E1;
+    text-decoration: none;
+    font-weight: bold;
+}
+.magazin a:hover {
+    color: #D4AF37;
+}
+.tortenetekep {
+    background-image: url("tortenetekep.jpg"); /* Háttérkép hozzáadása */
+    background-size: cover; /* A kép kitölti a megadott helyet */
+    background-position: center; /* Kép középre igazítása */
+    float: right; /* Kép jobbra igazítása */
+    margin: 0px; /* Margó a körülötte lévő elemekhez */
+    padding: 0; /* Nincs belső térköz */
+    width: 40%; /* Fix szélesség */
+    height: 220px; /* Fix magasság */
+    border-radius: 8px; /* Lekerekített sarkok */
+}
+.tortenetekep2 {
+    background-image: url("tortenetekep1.jpg"); /* Háttérkép hozzáadása */
+    background-size: cover; /* A kép kitölti a megadott helyet */
+    background-position: center; /* Kép középre igazítása */
+    float: right; /* Kép jobbra igazítása */
+    margin: 10px; /* Margó a körülötte lévő elemekhez */
+    padding: 0; /* Nincs belső térköz */
+    width: 40%; /* Fix szélesség */
+    height: 220px; /* Fix magasság */
+    border-radius: 8px; /* Lekerekített sarkok */
+}
+.torteneteszoveg{
+	background-color: rgba(0, 0, 0, 0.85);
+    text-align: left; /* Balra igazítja a szöveget */
+    margin: 20px; /* Középre helyezi a dobozt a szélességen belül */
+    line-height: 1.6; /* Szöveg közötti távolság */
+    color: #E4E0E1; /* Szöveg színe */
+    font-family: Arial, sans-serif; /* Szöveg betűtípusa */
+}
+.app{
+	background-color: rgba(0, 0, 0, 0.85);
+	text-align: left; /* Balra igazítja a szöveget */
+    margin: 20px; /* Középre helyezi a dobozt a szélességen belül */
+    line-height: 1.6; /* Szöveg közötti távolság */
+    color: #E4E0E1; /* Szöveg színe */
+    font-family: Arial, sans-serif; /* Szöveg betűtípusa */
+}
+.balra{
+	text-align: left;
+}
+.lap2 {
+	background-color: rgba(0, 0, 0, 0.85);
+	text-align: center;
+    margin: 20px; /* Középre helyezi a dobozt a szélességen belül */
+    line-height: 1.6; /* Szöveg közötti távolság */
+    color: #E4E0E1; /* Szöveg színe */
+    font-family: Arial, sans-serif; /* Szöveg betűtípusa */
+}
+.astronkep{
+	background-image:url("astron.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 100px;
+	height: 150px;
+	background-size: cover;
+	float: right;
+	margin-top: -40px;
+	image-rendering: pixelated;
+}
+.fivekep{
+	background-image:url("seikofive.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 100px;
+	height: 150px;
+	background-size: cover;
+	float: right;
+	margin-top: -40px;
+	image-rendering: pixelated;
+}
+.prospexkep{
+	background-image:url("prospex.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 100px;
+	height: 150px;
+	background-size: cover;
+	float: right;
+	margin-top: -40px;
+	image-rendering: pixelated;
+}
+.presagekep{
+	background-image:url("presage.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 100px;
+	height: 150px;
+	background-size: cover;
+	float: right;
+	margin-top: -40px;
+	image-rendering: pixelated;
+}
+.grandkep{
+	background-image:url("grand.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 100px;
+	height: 150px;
+	background-size: cover;
+	float: right;
+	margin-top: -40px;
+	image-rendering: pixelated;
+}
+.applogo{
+	background-image:url("applogo.jpg");
+	margin: 5px;
+	padding: 0px;
+	width: 118px;
+	height: 118px;
+	margin-top: -3px;
+	background-size: cover;
+	float: right;
+	image-rendering: pixelated;
+}
+.tortenetekep3 {
+    background-image: url("springdrive.jpg"); /* Háttérkép hozzáadása */
+    background-size: cover; /* A kép kitölti a megadott helyet */
+    background-position: center; /* Kép középre igazítása */
+    float: right; /* Kép jobbra igazítása */
+    margin: 10px; /* Margó a körülötte lévő elemekhez */
+    padding: 0; /* Nincs belső térköz */
+    width: 40%; /* Fix szélesség */
+    height: 220px; /* Fix magasság */
+    border-radius: 8px; /* Lekerekített sarkok */
+}
+.magazin2023{
+	background-image: url("magazin2023.jpg");
+	background-size: cover; /* A kép kitölti a megadott helyet */
+    background-position: center; /* Kép középre igazítása */
+    float: center; /* Kép jobbra igazítása */
+    margin: 0 auto; /* Margó a körülötte lévő elemekhez */
+    padding: 0px; /* Nincs belső térköz */
+    width: 70%; /* Fix szélesség */
+	height: 370px;
+    border-radius: 8px; /* Lekerekített sarkok */
+}
+.magazin2022{
+	background-image: url("magazin2022.jpg");
+	background-size: cover; /* A kép kitölti a megadott helyet */
+    background-position: center; /* Kép középre igazítása */
+    float: center; /* Kép jobbra igazítása */
+    margin: 0 auto; /* Margó a körülötte lévő elemekhez */
+    padding: 0px; /* Nincs belső térköz */
+    width: 70%; /* Fix szélesség */
+	height: 370px;
+    border-radius: 8px; /* Lekerekített sarkok */
+}
+.magazin2021{
+	margin: 0;
+	padding:0;
+	background-size: cover;
+	float: center;
+	background-position: center;
+	position: center:
+}
+.magazin2022{
+	margin: 0;
+	padding:0;
+	background-size: cover;
+	float: center;
+	background-position: center;
+	position: center:
+}
+.magazin2023{
+	margin: 0;
+	padding:0;
+	background-size: cover;
+	float: center;
+	background-position: center;
+	position: center:
+}
+.h2{
+	display: inline-block;
+}
+.magazinszoveg{
+	text-align: center;
+	position: center;
+	margin: 0px;
+}
+table{
+	position: center;
+	border: 2px solid white;
+	margin: 0 auto;
+	padding: 5px;
+}
+th, td{
+	border: 2px solid white;
+	padding: 5px;
+	text-align: center;
+}
+th{
+	font-size: 23px;
+}
+.email-link{
+	text-align: center;
+	margin-left: -321px;
+}
+.email-link:hover{
+color: #D4AF37;
+}
+.kapcsolatszoveg:hover{
+	color:#D4AF37;
+}
+thead th{
+	background-color: #1a2b34;
+}
+.kezdolaplink{
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding: 7px;
+}
+.kezdolaplink:hover{
+	color:#D4AF37;
+}
